@@ -1,0 +1,79 @@
+/* =========================
+   RESPONSIVE DESIGN
+   BayarKita
+========================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+
+    .hero .row {
+        text-align: center;
+    }
+
+    .hero-img {
+        margin-top: 20px;
+        max-width: 80%;
+    }
+
+    .menu-card {
+        margin-bottom: 15px;
+    }
+
+    .saldo-card {
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .menu-card {
+        padding: 20px;
+    }
+
+    .menu-card i {
+        font-size: 22px;
+    }
+
+    .promo {
+        text-align: center;
+        padding: 15px;
+    }
+
+    #saldo {
+        font-size: 24px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .btn-lg {
+        width: 100%;
+    }
+
+    .menu-card {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+        text-align: center;
+    }
+}

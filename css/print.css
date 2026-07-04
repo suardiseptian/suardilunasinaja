@@ -1,0 +1,59 @@
+/* =========================
+   PRINT STYLE
+   BayarKita
+========================= */
+
+@media print {
+
+    /* Sembunyikan elemen yang tidak perlu saat print */
+    nav,
+    .navbar,
+    .menu-card,
+    .promo,
+    .btn,
+    footer,
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        background: white !important;
+        color: black !important;
+    }
+
+    .card {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    #hasilTagihan {
+        width: 100%;
+        padding: 0;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    h4, h5 {
+        color: black !important;
+    }
+
+    /* Struk pembayaran */
+    .receipt {
+        width: 100%;
+        font-family: monospace;
+        font-size: 12px;
+        border: 1px dashed #000;
+        padding: 10px;
+    }
+
+    .receipt h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .receipt-actions {
+        display: none !important;
+    }
+}
